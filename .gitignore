@@ -1,0 +1,39 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Qdrant and generated data
+backend/local_qdrant/
+backend/chats_registry.json
+
+# WhatsApp exports and uploaded source files
+*.txt
+!README.txt
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs and local runtime files
+*.log
+*.pid
+.DS_Store
+Thumbs.db
+
+# Editor and OS files
+.vscode/
+.idea/
